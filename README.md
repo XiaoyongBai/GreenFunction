@@ -17,13 +17,7 @@ This README would normally document whatever steps are necessary to get your app
 ### How to generate a Xcode project for MacOS? ###
 * cmake -G Xcode ..
 
-
-### Contribution guidelines ###
-
-* Code review
-* Other guidelines
-
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Xiaoyong Bai at baixiaoyong@gmail.com
+
