@@ -1,0 +1,3 @@
+/Users/xiaoyongbai/Workspace/GreenFunction/build/CMakeFiles/ALL_BUILD.dir
+/Users/xiaoyongbai/Workspace/GreenFunction/build/CMakeFiles/ZERO_CHECK.dir
+/Users/xiaoyongbai/Workspace/GreenFunction/build/src/CMakeFiles/GreenFunction.dir

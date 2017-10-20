@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BA4479A277B342B2A798CB2B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB44681C8E884BC485C6BB7B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				597CC68D85944AA0B17F42DA /* CMake Rules */,
+			);
+			dependencies = (
+				BCEA8E9634094590A63F3C68 /* PBXTargetDependency */,
+				97FCCF8E1DAB4C17ABF6E500 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EF04EFA7CA8F42F989D6DFC7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7CB890070D6E44CEA1E521D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				935BB7549572414385A21390 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0EF19CD244D84E83B8895DFA /* /Users/xiaoyongbai/Workspace/GreenFunction/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EAF1B2C34BBF49899F16A952 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/CMakeLists.txt */; };
+		1EF9CE4E52B2481580CEACED /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.h */ = {isa = PBXBuildFile; fileRef = 340FB5D18C7D4F92934367FD /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.h */; };
+		2689332572544868AD6EB9A8 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.cpp */ = {isa = PBXBuildFile; fileRef = 992309C0813742749600B920 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.cpp */; };
+		29CA9B4B06744FD289C75930 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.cpp */ = {isa = PBXBuildFile; fileRef = 75DC9610B2B94008A40DB4EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.cpp */; };
+		37F1C2D5067C4F4381908C89 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.h */ = {isa = PBXBuildFile; fileRef = FE748359E36942569AF8FBFE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.h */; };
+		38DB07D6B4984DB2A4BB13EE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.cpp */ = {isa = PBXBuildFile; fileRef = 28D433D7CAF74B45B14A9596 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.cpp */; };
+		3DABF9FE6D1E4FE2B3828E76 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 9738A14F6FAA45C58C4DB198 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/main.cpp */; };
+		47ED5ED4C05D49AF90E6DAA4 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.cpp */ = {isa = PBXBuildFile; fileRef = 2DA63F0A53B64D3EBDF077D3 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.cpp */; };
+		4BC5189686044E08B21435B2 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.cpp */ = {isa = PBXBuildFile; fileRef = 2C15C8726AFD407AA6B092F8 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.cpp */; };
+		52F2A21AD73544719606862A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.h */ = {isa = PBXBuildFile; fileRef = 86C18E92AD594D3C8F3D3BE2 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.h */; };
+		55C377AE24584ADE97EADC4E /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.h */ = {isa = PBXBuildFile; fileRef = F6A71A37A5E9407A968CADE6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.h */; };
+		6A5EE2BD48874E469E6C4801 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.cpp */ = {isa = PBXBuildFile; fileRef = EED7F21D943445EE8646E769 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.cpp */; };
+		6E1E66BF52F1465582DEE046 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.cpp */ = {isa = PBXBuildFile; fileRef = 623FC6DB88444D0C8459E070 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.cpp */; };
+		754D10EC912B444A9609FBD5 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.cpp */ = {isa = PBXBuildFile; fileRef = C3B2CA8CDDDC4CBDAAAF2ADC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.cpp */; };
+		7C199BC3401B45019DE83F81 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.h */ = {isa = PBXBuildFile; fileRef = 285D0DB9CE5A47BC8242CAC6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.h */; };
+		89ACE26992CA4CAE8E8D598B /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.h */ = {isa = PBXBuildFile; fileRef = 3E7E8794120542F9BB91D842 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.h */; };
+		923E71B5328A46AABA1C1726 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.h */ = {isa = PBXBuildFile; fileRef = 3E8C31D342404FC2BCF0E8D4 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.h */; };
+		99812B9A03CF41849386CE89 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.h */ = {isa = PBXBuildFile; fileRef = FCF36CA961A947729D110A8C /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.h */; };
+		A2F98734C32044ECBE4BCEA1 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.cpp */ = {isa = PBXBuildFile; fileRef = 19FBEFDF4B35474EA9CC531A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.cpp */; };
+		A4488B82A71140C8BFB290F0 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.h */ = {isa = PBXBuildFile; fileRef = 3B7B66FF46024A579199EA91 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.h */; };
+		B17F249607AD47F6ADDB73AE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.h */ = {isa = PBXBuildFile; fileRef = 2943BB21AEAF4D00859D78EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.h */; };
+		D6BC3EB272E34EC9BFDF0F18 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.h */ = {isa = PBXBuildFile; fileRef = 833552A7CC694A3EBD5D7847 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.h */; };
+		FB49C63B289F4D2A97E91619 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.cpp */ = {isa = PBXBuildFile; fileRef = 768876828A1D4B87B6B3887A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.cpp */; };
+		FCA4077A8CE64611BAF01A47 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.cpp */ = {isa = PBXBuildFile; fileRef = 5122BB7785934B539D38FB58 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0F1AACB38F8E4BFA93D0BC89 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		1728AAB15FDF4D50BF15E109 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		367EF0F17C644A3A99654688 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B1E06B45AEA84FD9AC8A8BD6 = {
+			isa = PBXBuildStyle;
+		};
+		D064318DF0E9432793CD02DA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		74F8BDCAAAE0466C81B61AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0355F167FE64B7C8617FA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF04EFA7CA8F42F989D6DFC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		88DF0E7362AF417EB735FDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0355F167FE64B7C8617FA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF04EFA7CA8F42F989D6DFC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		D5D093B98CC445CB9711366E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0355F167FE64B7C8617FA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C5D6F5D253492C8440640C;
+			remoteInfo = GreenFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19FBEFDF4B35474EA9CC531A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuzinaBaiT.cpp; path = src/GuzinaBaiT.cpp; sourceTree = SOURCE_ROOT; };
+		1D3A671723E14EF8A2628777 /* /Users/xiaoyongbai/Workspace/GreenFunction/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		285D0DB9CE5A47BC8242CAC6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GuzinaMultLayerT.h; path = src/GuzinaMultLayerT.h; sourceTree = SOURCE_ROOT; };
+		28D433D7CAF74B45B14A9596 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MindlinT.cpp; path = src/MindlinT.cpp; sourceTree = SOURCE_ROOT; };
+		2943BB21AEAF4D00859D78EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PakBaiT.h; path = src/PakBaiT.h; sourceTree = SOURCE_ROOT; };
+		2C15C8726AFD407AA6B092F8 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PakT.cpp; path = src/PakT.cpp; sourceTree = SOURCE_ROOT; };
+		2DA63F0A53B64D3EBDF077D3 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KelvinT.cpp; path = src/KelvinT.cpp; sourceTree = SOURCE_ROOT; };
+		340FB5D18C7D4F92934367FD /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PakT.h; path = src/PakT.h; sourceTree = SOURCE_ROOT; };
+		3B7B66FF46024A579199EA91 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DehoopBaiT.h; path = src/DehoopBaiT.h; sourceTree = SOURCE_ROOT; };
+		3E7E8794120542F9BB91D842 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GuzinaBiMatT.h; path = src/GuzinaBiMatT.h; sourceTree = SOURCE_ROOT; };
+		3E8C31D342404FC2BCF0E8D4 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GuzinaBaiT.h; path = src/GuzinaBaiT.h; sourceTree = SOURCE_ROOT; };
+		5122BB7785934B539D38FB58 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BesselT.cpp; path = src/BesselT.cpp; sourceTree = SOURCE_ROOT; };
+		623FC6DB88444D0C8459E070 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DehoopBaiT.cpp; path = src/DehoopBaiT.cpp; sourceTree = SOURCE_ROOT; };
+		75DC9610B2B94008A40DB4EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuzinaBiMatT.cpp; path = src/GuzinaBiMatT.cpp; sourceTree = SOURCE_ROOT; };
+		768876828A1D4B87B6B3887A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PakBaiT.cpp; path = src/PakBaiT.cpp; sourceTree = SOURCE_ROOT; };
+		833552A7CC694A3EBD5D7847 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MindlinT.h; path = src/MindlinT.h; sourceTree = SOURCE_ROOT; };
+		86C18E92AD594D3C8F3D3BE2 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KauselT.h; path = src/KauselT.h; sourceTree = SOURCE_ROOT; };
+		9738A14F6FAA45C58C4DB198 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		992309C0813742749600B920 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MathOperationT.cpp; path = src/MathOperationT.cpp; sourceTree = SOURCE_ROOT; };
+		BAED99036DF2410C888F8F46 /* /Users/xiaoyongbai/Workspace/GreenFunction/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C3B2CA8CDDDC4CBDAAAF2ADC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KauselT.cpp; path = src/KauselT.cpp; sourceTree = SOURCE_ROOT; };
+		EAF1B2C34BBF49899F16A952 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EED7F21D943445EE8646E769 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GuzinaMultLayerT.cpp; path = src/GuzinaMultLayerT.cpp; sourceTree = SOURCE_ROOT; };
+		F0D1A9FC4C544A468D41907F /* GreenFunction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = GreenFunction; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A71A37A5E9407A968CADE6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BesselT.h; path = src/BesselT.h; sourceTree = SOURCE_ROOT; };
+		FCF36CA961A947729D110A8C /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MathOperationT.h; path = src/MathOperationT.h; sourceTree = SOURCE_ROOT; };
+		FE748359E36942569AF8FBFE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KelvinT.h; path = src/KelvinT.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07F09AA70C904152A643991C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F80D202BAD1848F69D84CF37 /* ALL_BUILD */,
+				F539528BB493476994E4EC85 /* ZERO_CHECK */,
+				CE202687E20049698A7DFECB /* GreenFunction */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		4C85126B0DEF4FE89FBCF2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D1A9FC4C544A468D41907F /* GreenFunction */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C6C748A184487DA37CCB9C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A71A37A5E9407A968CADE6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.h */,
+				3B7B66FF46024A579199EA91 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.h */,
+				3E8C31D342404FC2BCF0E8D4 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.h */,
+				3E7E8794120542F9BB91D842 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.h */,
+				285D0DB9CE5A47BC8242CAC6 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.h */,
+				86C18E92AD594D3C8F3D3BE2 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.h */,
+				FE748359E36942569AF8FBFE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.h */,
+				FCF36CA961A947729D110A8C /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.h */,
+				833552A7CC694A3EBD5D7847 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.h */,
+				2943BB21AEAF4D00859D78EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.h */,
+				340FB5D18C7D4F92934367FD /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A67AF13D1B4C414FAD5ED69C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B124ADA5B29F4E1A8EF688BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C51C1DAEBD8F409999C5A7A6 = {
+			isa = PBXGroup;
+			children = (
+				07F09AA70C904152A643991C /* Sources */,
+				B124ADA5B29F4E1A8EF688BB /* Resources */,
+				4C85126B0DEF4FE89FBCF2B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6DF5C8427A14EBEAED17BC9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5122BB7785934B539D38FB58 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.cpp */,
+				623FC6DB88444D0C8459E070 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.cpp */,
+				19FBEFDF4B35474EA9CC531A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.cpp */,
+				75DC9610B2B94008A40DB4EC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.cpp */,
+				EED7F21D943445EE8646E769 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.cpp */,
+				C3B2CA8CDDDC4CBDAAAF2ADC /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.cpp */,
+				2DA63F0A53B64D3EBDF077D3 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.cpp */,
+				992309C0813742749600B920 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.cpp */,
+				28D433D7CAF74B45B14A9596 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.cpp */,
+				768876828A1D4B87B6B3887A /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.cpp */,
+				2C15C8726AFD407AA6B092F8 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.cpp */,
+				9738A14F6FAA45C58C4DB198 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CE202687E20049698A7DFECB /* GreenFunction */ = {
+			isa = PBXGroup;
+			children = (
+				C6DF5C8427A14EBEAED17BC9 /* Source Files */,
+				A1C6C748A184487DA37CCB9C /* Header Files */,
+				EAF1B2C34BBF49899F16A952 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/CMakeLists.txt */,
+			);
+			name = GreenFunction;
+			sourceTree = "<group>";
+		};
+		D7F35DC16441495891234832 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F539528BB493476994E4EC85 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				D7F35DC16441495891234832 /* CMake Rules */,
+				BAED99036DF2410C888F8F46 /* /Users/xiaoyongbai/Workspace/GreenFunction/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F80D202BAD1848F69D84CF37 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A67AF13D1B4C414FAD5ED69C /* CMake Rules */,
+				1D3A671723E14EF8A2628777 /* /Users/xiaoyongbai/Workspace/GreenFunction/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C5D6F5D253492C8440640C /* GreenFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D206D1DC5154BA689C2BC8C /* Build configuration list for PBXNativeTarget "GreenFunction" */;
+			buildPhases = (
+				C817B52D442A43E199E3C350 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34B7D0F7858414F8122E066 /* PBXTargetDependency */,
+			);
+			name = GreenFunction;
+			productName = GreenFunction;
+			productReference = F0D1A9FC4C544A468D41907F /* GreenFunction */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0355F167FE64B7C8617FA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 941A6EE72A7D4BE08AAD7D06 /* Build configuration list for PBXProject "GreenFunction" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1728AAB15FDF4D50BF15E109 /* Debug */,
+				D064318DF0E9432793CD02DA /* Release */,
+				0F1AACB38F8E4BFA93D0BC89 /* MinSizeRel */,
+				367EF0F17C644A3A99654688 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C51C1DAEBD8F409999C5A7A6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				BA4479A277B342B2A798CB2B /* ALL_BUILD */,
+				EF04EFA7CA8F42F989D6DFC7 /* ZERO_CHECK */,
+				28C5D6F5D253492C8440640C /* GreenFunction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		597CC68D85944AA0B17F42DA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/xiaoyongbai/Workspace/GreenFunction/build -f /Users/xiaoyongbai/Workspace/GreenFunction/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		857F72FA147C4EBF9347DC60 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		935BB7549572414385A21390 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/xiaoyongbai/Workspace/GreenFunction/build -f /Users/xiaoyongbai/Workspace/GreenFunction/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E3CD160721004883B9D9316D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C817B52D442A43E199E3C350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA4077A8CE64611BAF01A47 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/BesselT.cpp */,
+				6E1E66BF52F1465582DEE046 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/DehoopBaiT.cpp */,
+				A2F98734C32044ECBE4BCEA1 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBaiT.cpp */,
+				29CA9B4B06744FD289C75930 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaBiMatT.cpp */,
+				6A5EE2BD48874E469E6C4801 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/GuzinaMultLayerT.cpp */,
+				754D10EC912B444A9609FBD5 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KauselT.cpp */,
+				47ED5ED4C05D49AF90E6DAA4 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/KelvinT.cpp */,
+				2689332572544868AD6EB9A8 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MathOperationT.cpp */,
+				38DB07D6B4984DB2A4BB13EE /* /Users/xiaoyongbai/Workspace/GreenFunction/src/MindlinT.cpp */,
+				FB49C63B289F4D2A97E91619 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakBaiT.cpp */,
+				4BC5189686044E08B21435B2 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/PakT.cpp */,
+				3DABF9FE6D1E4FE2B3828E76 /* /Users/xiaoyongbai/Workspace/GreenFunction/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97FCCF8E1DAB4C17ABF6E500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF04EFA7CA8F42F989D6DFC7 /* ZERO_CHECK */;
+			targetProxy = 74F8BDCAAAE0466C81B61AC1 /* PBXContainerItemProxy */;
+		};
+		BCEA8E9634094590A63F3C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C5D6F5D253492C8440640C /* GreenFunction */;
+			targetProxy = D5D093B98CC445CB9711366E /* PBXContainerItemProxy */;
+		};
+		F34B7D0F7858414F8122E066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF04EFA7CA8F42F989D6DFC7 /* ZERO_CHECK */;
+			targetProxy = 88DF0E7362AF417EB735FDB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006776869402465CAD55B60F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		141A0D6445754D539655112B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/build;
+			};
+			name = Release;
+		};
+		1789E555D7D1412FA6024628 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1FF8AF11AFB74B94AE7878AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3028C98BAE3B46DA8B9B987C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D61AAF2514B427BAA53A8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		876DFCB2A14F438796BAE48C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		995653BB8A3C4206BDD5C80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/gcc/7/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++0x     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lhald -lgfortran";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GreenFunction;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A662DB7D3E6C437C81ED5C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/gcc/7/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++0x     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lhald -lgfortran";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GreenFunction;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B1429B599B794343A89A8BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C24DB7F09273486E92526F78 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CC42B389472E47459367F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/build;
+			};
+			name = Debug;
+		};
+		DF32A28F7C094E62BF0D96CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/build;
+			};
+			name = MinSizeRel;
+		};
+		E71D1C75C57B4FCC9213826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E951B34FC45F4929ABC440A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/gcc/7/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++0x     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lhald -lgfortran";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GreenFunction;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F24EFD29AD6E468897DB72FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/gcc/7/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/gcc/7 /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiaoyongbai/Workspace/GreenFunction/fortran_lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++0x        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lhald -lgfortran";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GreenFunction;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xiaoyongbai/Workspace/GreenFunction/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D206D1DC5154BA689C2BC8C /* Build configuration list for PBXNativeTarget "GreenFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995653BB8A3C4206BDD5C80A /* Debug */,
+				A662DB7D3E6C437C81ED5C29 /* Release */,
+				E951B34FC45F4929ABC440A7 /* MinSizeRel */,
+				F24EFD29AD6E468897DB72FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CB890070D6E44CEA1E521D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D61AAF2514B427BAA53A8C2 /* Debug */,
+				1FF8AF11AFB74B94AE7878AD /* Release */,
+				3028C98BAE3B46DA8B9B987C /* MinSizeRel */,
+				C24DB7F09273486E92526F78 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		941A6EE72A7D4BE08AAD7D06 /* Build configuration list for PBXProject "GreenFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC42B389472E47459367F641 /* Debug */,
+				141A0D6445754D539655112B /* Release */,
+				DF32A28F7C094E62BF0D96CB /* MinSizeRel */,
+				006776869402465CAD55B60F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB44681C8E884BC485C6BB7B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71D1C75C57B4FCC9213826A /* Debug */,
+				B1429B599B794343A89A8BBD /* Release */,
+				1789E555D7D1412FA6024628 /* MinSizeRel */,
+				876DFCB2A14F438796BAE48C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0355F167FE64B7C8617FA8C /* Project object */;
+}
