@@ -1,10 +1,5 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* This is a c++ repository for Green's function of elasto-statics and elasto-dyanmics. 
+# GreenFunction #
+This is a c++ repository for Green's function of elasto-statics and elasto-dyanmics. 
 
 ### How to compile the fortran library of multi-layer Green's function
 
